@@ -26,7 +26,6 @@ int main (int argc, char* argv[])
 
     std::string k = argv[3];
     unsigned char *key = (unsigned char *)k.c_str(); 
-    std::cout << k << "\n";
     unsigned char *iv =  (unsigned char *)"0123456789012345";              
     size_t key_size = strlen((const char*)key);
 
